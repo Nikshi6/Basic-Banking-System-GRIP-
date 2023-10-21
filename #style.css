@@ -1,0 +1,167 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #b07bf6;
+}
+
+/* splash screen css starts here  */
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: 372948url("https://media.giphy.com/media/xTk9ZvMnbIiIew7IpW/giphy.gif") no-repeat center center;
+    z-index: 99999;
+}
+/* splash screen css ends here  */
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #9a9af7!important;
+}
+
+.navbar-brand{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+    color: red!important;
+}
+
+.nav-link{
+    color: #000306!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: #34c6f7;
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 100vh;
+    background-color: rgb(218, 189, 194);
+    color: rgb(114, 12, 12);
+    padding: 2rem;
+    border-bottom-left-radius: 45rem;
+    border-bottom-right-radius: 45rem;
+    margin-bottom: 0.5vh;
+}
+
+.hero-img{
+    height: 68vh;
+    width: 83%;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: rgb(250, 250, 250);
+    color: #153db3!important;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: #8ec3e0;
+
+}
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+.get-started-content{
+    height: 60vh;
+    background-color: #e99378;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #039be5;
+    color: #F5EFe6!important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: #1644a7;
+    text-decoration: none;
+}
+/* get-started-buttons css end here*/
+
+/* footer css starts here */
+/* footer */
+.fa:hover {
+  color: rgb(199, 29, 29);
+   transform:scale(1.3);
+
+
+}
+
+.fa-facebook {
+  background: #375fb8;
+  color: rgb(255, 255, 255);
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #F5EFE6;
+  color: white;
+}
+.fa-youtube {
+  background: #628E90;
+  color: white;
+}
+
+.fa-instagram {
+  background: #e01d1d;
+  color: white;
+}
+.fa {
+  padding: 15px;
+  font-size: 12px;
+  width: 40px;
+   height: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.footer{
+  background-color: black;
+    padding: 5px;
+
+}
+/* footer css ends here  */
+.spark-bank{
+  font-family:fantasy;
+  color:rgb(0, 0, 0);
+
+
+
+}
